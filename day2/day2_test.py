@@ -3,6 +3,18 @@ import day2
 
 
 class TestDay2(unittest.TestCase):
+    def test_find_pair(self):
+        ids = [
+            'abcde',
+            'fghij',
+            'klmno',
+            'pqrst',
+            'fguij',
+            'axcye',
+            'wvxyz'
+        ]
+        self.assertEqual(day2.find_pair(ids), ('fghij', 'fguij', 2))
+
     def test_process_ids(self):
         ids = [
             'abcdef',
