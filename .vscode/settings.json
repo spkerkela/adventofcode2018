@@ -1,12 +1,6 @@
 {
-    "editor.formatOnSave": true,
-    "python.pythonPath": "/usr/local/opt/python/bin/python3.7",
-    "python.unitTest.unittestArgs": [
-        "-v",
-        "-s",
-        "./day1",
-        "-p",
-        "*test.py"
-    ],
-    "python.unitTest.unittestEnabled": true
+  "editor.formatOnSave": true,
+  "python.pythonPath": "/usr/local/opt/python/bin/python3.7",
+  "python.unitTest.unittestArgs": ["-v", "-s", "./day2", "-p", "*test.py"],
+  "python.unitTest.unittestEnabled": true
 }
